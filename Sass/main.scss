@@ -1,0 +1,127 @@
+// Colores
+$-Titulos: #ff0303;
+$-Texto: #f0eeed;
+$-Fondo-oscuro: #2e3840;
+$-Fondo-claro: #4e6e81;
+$-Fondo-blanco: #eeeeee;
+$-Color-linea: #a5c9ca;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background: $-Fondo-oscuro;
+  color: $-Texto
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=PT+Serif:wght@700&display=swap");
+
+html {
+  font-size: 62.5%; // 16rem / 10px
+  scroll-behavior: smooth;
+}
+
+// Text
+$-titulo: "PT Serif", serif;
+$-texto-cuerpo: "Instrument Sans", sans-serif;
+
+// SPACING
+$mb: 0.8rem;
+$mb-medium: 4rem;
+
+// FONT
+body {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  font-family: "Instrument Sans", sans-serif;
+  font-family: "PT Serif", serif;
+  color: $-Texto;
+}
+
+// CHOSE
+.chose {
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  background: blue;
+}
+
+// ABOUT
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  background: purple;
+}
+
+// REFERENCES
+.references {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: green;
+}
+
+// ARTIST
+.artist {
+  background: blue;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+// GALLERY
+.gallery {
+  background: red;
+  display: grid;
+  grid-template-columns: repeat(auto-fit minmax(25rem, 1fr));
+}
+
+// DISCOVER
+.discover {
+  background: yellow;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+// QUESTIONS
+.questions {
+  background: brown;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+// COTACT
+.contact {
+  background: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// LOCALITATION
+.localitation {
+  background: gray;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+// FOOTER
+.footer {
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* IMPORTS */
+@import "header.scss";
+@import "tittles.scss";
+@import "Utilities/buttons.scss";
+@import "Utilities/containers.scss"
