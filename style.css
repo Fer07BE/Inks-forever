@@ -85,3 +85,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+
+.tittle {
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  letter-spacing: .8rem; }
