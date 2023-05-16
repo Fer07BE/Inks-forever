@@ -14,6 +14,9 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
 
+.pd-t {
+  padding-top: 3rem; }
+
 body {
   hyphens: auto;
   -webkit-hyphens: auto;
@@ -147,3 +150,11 @@ body {
 .container {
   max-width: 90%;
   margin: 0 auto; }
+
+.chose {
+  background: #2e3840;
+  text-align: center; }
+
+.chose__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); }
