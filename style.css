@@ -113,3 +113,7 @@ body {
   -webkit-background-clip: text;
   color: transparent;
   margin-bottom: 4rem; }
+
+.btn {
+  display: inline-block;
+  text-decoration: none; }
