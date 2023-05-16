@@ -17,20 +17,19 @@ html {
   scroll-behavior: smooth;
 }
 
+// Colores
+$-Titulos: #ff0303;
+$-Texto: #f0eeed;
+$-Fondo-oscuro: #2e3840;
+$-Fondo-claro: #4e6e81;
+$-Fondo-blanco: #eeeeee;
+$-Color-linea: #a5c9ca;
+
 // FONT
 body {
   font-family: "Instrument Sans", sans-serif;
   font-family: "PT Serif", serif;
-  color: white;
 }
-
-// Colores
-  $-Titulos: #FF0303;
-  $-Texto: #F0EEED;
-  $-Fondo-oscuro: #2E3840;
-  $-Fondo-claro: #4E6E81;
-  $-Fondo-blanco: #EEEEEE;
-  $-Color-linea: #A5C9CA;
 
 // CHOSE
 .chose {
