@@ -162,6 +162,10 @@ body {
   -ms-transform: translateY(0.2rem);
   -o-transform: translateY(0.2rem); }
 
+.icon {
+  font-size: 4.4rem;
+  color: rgba(255, 3, 3, 0.7); }
+
 .container {
   max-width: 90%;
   margin: 0 auto; }
@@ -171,5 +175,25 @@ body {
   text-align: center; }
 
 .chose__container {
+  padding-top: 5.2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr)); }
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  justify-content: center;
+  align-items: center; }
+
+.chose__info {
+  width: 80%;
+  margin: auto; }
+
+.chose__tittle {
+  font-size: 1.8rem;
+  color: rgba(255, 3, 3, 0.7);
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  padding-top: 0.8rem; }
+
+.chose__text {
+  padding-top: 1.2rem;
+  font-family: "Instrument Sans", sans-serif;
+  line-height: 1.5;
+  font-size: 1.2rem; }

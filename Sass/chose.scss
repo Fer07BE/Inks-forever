@@ -4,6 +4,29 @@
 }
 
 .chose__container {
+  padding-top: 5.2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit , minmax(30rem , 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  justify-content: center;
+  align-items: center;
+}
+
+.chose__info {
+  width: 80%;
+  margin: auto;
+}
+
+.chose__tittle {
+  font-size: 1.8rem;
+  color: rgba($-Titulos, 0.7);
+  font-family: $-titulo;
+  font-weight: 400;
+  padding-top: 0.8rem;
+}
+
+.chose__text {
+  padding-top: 1.2rem;
+  font-family: $-texto-cuerpo;
+  line-height: 1.5;
+  font-size: 1.2rem;
 }
