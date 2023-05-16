@@ -10,10 +10,6 @@
 
 html {
   font-size: 62.5%; // 16rem / 10px
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
   scroll-behavior: smooth;
 }
 
@@ -27,8 +23,13 @@ $-Color-linea: #a5c9ca;
 
 // FONT
 body {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
   font-family: "Instrument Sans", sans-serif;
   font-family: "PT Serif", serif;
+  color: $-Texto;
 }
 
 // CHOSE

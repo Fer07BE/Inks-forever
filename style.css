@@ -8,15 +8,16 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth; }
+
+body {
   hyphens: auto;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
-  scroll-behavior: smooth; }
-
-body {
   font-family: "Instrument Sans", sans-serif;
-  font-family: "PT Serif", serif; }
+  font-family: "PT Serif", serif;
+  color: #f0eeed; }
 
 .chose {
   justify-items: center;
