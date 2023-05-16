@@ -45,15 +45,6 @@ body {
   color: $-Texto;
 }
 
-// CHOSE
-.chose {
-  justify-items: center;
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  background: blue;
-}
-
 // ABOUT
 .about {
   display: grid;

@@ -23,13 +23,6 @@ body {
   font-family: "PT Serif", serif;
   color: #f0eeed; }
 
-.chose {
-  justify-items: center;
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  background: blue; }
-
 .about {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -150,3 +143,7 @@ body {
   -moz-transform: translateY(0.2rem);
   -ms-transform: translateY(0.2rem);
   -o-transform: translateY(0.2rem); }
+
+.container {
+  max-width: 90%;
+  margin: 0 auto; }
