@@ -1,0 +1,99 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; // 16rem / 10px
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+}
+
+// HEADER
+.header {
+  height: 100vh;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// CHOSE
+.chose {
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  background: blue;
+}
+
+// ABOUT
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  background: purple;
+}
+
+// REFERENCES
+.references {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: green;
+}
+
+// ARTIST
+.artist {
+  background: blue;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+// GALLERY
+.gallery {
+  background: red;
+  display: grid;
+  grid-template-columns: repeat(auto-fit minmax(25rem, 1fr));
+}
+
+// DISCOVER
+.discover {
+  background: yellow;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+// QUESTIONS
+.questions {
+  background: brown;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+// COTACT
+.contact {
+  background: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// LOCALITATION
+.localitation {
+  background: gray;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+// FOOTER
+.footer {
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

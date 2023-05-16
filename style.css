@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto; }
+
+.header {
+  height: 100vh;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.chose {
+  justify-items: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  background: blue; }
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  background: purple; }
+
+.references {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: green; }
+
+.artist {
+  background: blue;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
+
+.gallery {
+  background: red;
+  display: grid;
+  grid-template-columns: repeat(auto-fit minmax(25rem, 1fr)); }
+
+.discover {
+  background: yellow;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
+
+.questions {
+  background: brown;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
+
+.contact {
+  background: orangered;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.localitation {
+  background: gray;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
+
+.footer {
+  background: green;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
