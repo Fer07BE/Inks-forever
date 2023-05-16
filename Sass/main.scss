@@ -1,9 +1,22 @@
+// Colores
+$-Titulos: #ff0303;
+$-Texto: #f0eeed;
+$-Fondo-oscuro: #2e3840;
+$-Fondo-claro: #4e6e81;
+$-Fondo-blanco: #eeeeee;
+$-Color-linea: #a5c9ca;
+
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+*::selection {
+  background: $-Fondo-oscuro;
+  color: $-Texto
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=PT+Serif:wght@700&display=swap");
@@ -13,20 +26,13 @@ html {
   scroll-behavior: smooth;
 }
 
-// Colores
-$-Titulos: #ff0303;
-$-Texto: #f0eeed;
-$-Fondo-oscuro: #2e3840;
-$-Fondo-claro: #4e6e81;
-$-Fondo-blanco: #eeeeee;
-$-Color-linea: #a5c9ca;
-
 // Text
 $-titulo: "PT Serif", serif;
 $-texto-cuerpo: "Instrument Sans", sans-serif;
 
 // SPACING
-$mb: 2rem;
+$mb: 0.8rem;
+$mb-medium: 4rem;
 
 // FONT
 body {
