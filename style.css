@@ -16,14 +16,8 @@ html {
 
 body {
   font-family: "Instrument Sans", sans-serif;
-  font-family: "PT Serif", serif; }
-
-.header {
-  height: 100vh;
-  background: red;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  font-family: "PT Serif", serif;
+  color: white; }
 
 .chose {
   justify-items: center;
@@ -77,5 +71,17 @@ body {
 .footer {
   background: green;
   display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* IMPORTS */
+.header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(../Img/Hero/Hero-Originial.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; }
