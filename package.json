@@ -16,7 +16,7 @@
     "devserver": "live-server",
     "watch:sass": "node-sass Sass/main.scss style.css -w",
     "build:css": "npm-run-all compile:sass",
-    "start": "npm-run-all devserver compile:sass"
+    "start": "npm-run-all --parallel devserver watch:sass"
   },
   "author": "Fernando Ivan Barrios Espinosa",
   "license": "ISC"
