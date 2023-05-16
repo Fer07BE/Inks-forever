@@ -1,0 +1,39 @@
+// HEADER
+.header {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(../Img/Hero/Hero-Originial.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tittle {
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  font-family: $-titulo;
+  font-weight: 700;
+  letter-spacing: 1.2rem;
+  margin-bottom: $mb;
+  background: linear-gradient($-Fondo-blanco, $-Fondo-claro);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.tittle-4 {
+  margin-bottom: $mb-medium;
+  font-family: $-texto-cuerpo;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  background: linear-gradient($-Texto, $-Fondo-blanco);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: $mb-medium;
+}
