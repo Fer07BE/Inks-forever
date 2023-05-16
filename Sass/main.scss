@@ -16,7 +16,7 @@ $-Color-linea: #a5c9ca;
 
 *::selection {
   background: $-Fondo-oscuro;
-  color: $-Texto
+  color: $-Texto;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;600;700&family=PT+Serif:wght@700&display=swap");
@@ -34,6 +34,11 @@ $-texto-cuerpo: "Instrument Sans", sans-serif;
 $mb: 0.8rem;
 $mb-medium: 4rem;
 
+
+.pd {
+  padding: 8rem 0;
+}
+
 // FONT
 body {
   hyphens: auto;
@@ -43,15 +48,6 @@ body {
   font-family: "Instrument Sans", sans-serif;
   font-family: "PT Serif", serif;
   color: $-Texto;
-}
-
-// CHOSE
-.chose {
-  justify-items: center;
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  background: blue;
 }
 
 // ABOUT
@@ -124,4 +120,5 @@ body {
 @import "header.scss";
 @import "tittles.scss";
 @import "Utilities/buttons.scss";
-@import "Utilities/containers.scss"
+@import "Utilities/containers.scss";
+@import "chose.scss";

@@ -11,7 +11,7 @@
   color: transparent;
 }
 
-.tittle-4 {
+.tittle-3 {
   margin-bottom: $mb-medium;
   font-family: $-texto-cuerpo;
   font-weight: 600;
@@ -22,4 +22,21 @@
   -webkit-background-clip: text;
   color: transparent;
   margin-bottom: $mb-medium;
+}
+
+.tittle__2 {
+  color: rgba($-Titulos , .8);
+  font-size: 2rem;
+  letter-spacing: .2rem;
+  font-family: $-texto-cuerpo;
+  font-weight: 600;
+}
+
+.tittle-4 {
+  font-family: $-texto-cuerpo;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding-top: .8rem;
+  color: rgba($-Texto , .7);
+  letter-spacing: .2rem;
 }
