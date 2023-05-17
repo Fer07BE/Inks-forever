@@ -26,11 +26,6 @@ body {
   font-family: "PT Serif", serif;
   color: #f0eeed; }
 
-.artist {
-  background: blue;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
-
 .gallery {
   background: red;
   display: grid;
@@ -312,3 +307,7 @@ figure {
     color: goldenrod; }
     .references__stars .icon-start:not(:last-of-type) {
       padding-right: .2rem; }
+
+.artist {
+  background: #2e3840;
+  text-align: center; }

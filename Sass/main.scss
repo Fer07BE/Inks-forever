@@ -49,13 +49,6 @@ body {
   color: $-Texto;
 }
 
-// ARTIST
-.artist {
-  background: blue;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-}
-
 // GALLERY
 .gallery {
   background: red;
@@ -108,4 +101,4 @@ body {
 @import "chose.scss";
 @import "about.scss";
 @import "references.scss";
-@import "artist.scss"
+@import "artist.scss";
