@@ -26,12 +26,12 @@ body {
   font-family: "PT Serif", serif;
   color: #f0eeed; }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .about {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  background: purple; }
+  background: purple; 
+}
 
 .references {
   display: flex;
@@ -39,15 +39,13 @@ body {
   align-items: center;
   background: green; }
 
-=======
->>>>>>> about
+
 .artist {
   background: blue;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
 
-=======
->>>>>>> artist
+
 .gallery {
   background: red;
   display: grid;
@@ -450,4 +448,7 @@ figure {
   background: #4267b2; }
   .social-icon[name="logo-facebook"]:hover {
     background: rgba(66, 103, 178, 0.5); }
+<<<<<<< HEAD
+>>>>>>> artist
+=======
 >>>>>>> artist
