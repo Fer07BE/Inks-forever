@@ -50,24 +50,6 @@ body {
   color: $-Texto;
 }
 
-<<<<<<< HEAD
-// ABOUT
-.about {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  background: purple;
-}
-
-// REFERENCES
-.references {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: green;
-}
-
-=======
->>>>>>> about
 // ARTIST
 .artist {
   background: blue;
@@ -124,10 +106,6 @@ body {
 @import "tittles.scss";
 @import "Utilities/buttons.scss";
 @import "Utilities/containers.scss";
-<<<<<<< HEAD
-@import "chose.scss";
-=======
 @import "chose.scss";
 @import "about.scss";
 @import "article.scss";
->>>>>>> about
