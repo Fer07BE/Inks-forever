@@ -388,3 +388,45 @@ figure {
   font-family: "Instrument Sans", sans-serif;
   font-size: 1.1rem;
   line-height: 1.5; }
+
+.artist__social {
+  padding-top: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem; }
+  .artist__social .social-icon {
+    font-size: 1.6rem;
+    border: 1px solid #eeeeee;
+    border-radius: 50%;
+    padding: 6px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+    -ms-transition: background 0.5s;
+    -o-transition: background 0.5s; }
+
+.social-icon[name="logo-twitter"] {
+  background: lightskyblue; }
+  .social-icon[name="logo-twitter"]:hover {
+    background: rgba(135, 206, 250, 0.5); }
+
+.social-icon[name="logo-instagram"] {
+  background: linear-gradient(to left top, #405de6, #e1306c);
+  transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+  -ms-transition: background 0.5s;
+  -o-transition: background 0.5s; }
+  .social-icon[name="logo-instagram"]:hover {
+    background: linear-gradient(to left top, rgba(64, 93, 230, 0.5), rgba(225, 48, 108, 0.9)); }
+
+.social-icon[name="logo-facebook"] {
+  background: #4267b2; }
+  .social-icon[name="logo-facebook"]:hover {
+    background: rgba(66, 103, 178, 0.5); }
