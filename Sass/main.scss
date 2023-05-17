@@ -34,7 +34,6 @@ $-texto-cuerpo: "Instrument Sans", sans-serif;
 $mb: 0.8rem;
 $mb-medium: 4rem;
 
-
 .pd {
   padding: 8rem 0;
 }
@@ -48,13 +47,6 @@ body {
   font-family: "Instrument Sans", sans-serif;
   font-family: "PT Serif", serif;
   color: $-Texto;
-}
-
-// ABOUT
-.about {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  background: purple;
 }
 
 // REFERENCES
@@ -122,3 +114,4 @@ body {
 @import "Utilities/buttons.scss";
 @import "Utilities/containers.scss";
 @import "chose.scss";
+@import "about.scss"
