@@ -26,12 +26,6 @@ body {
   font-family: "PT Serif", serif;
   color: #f0eeed; }
 
-.references {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: green; }
-
 .artist {
   background: blue;
   display: grid;
