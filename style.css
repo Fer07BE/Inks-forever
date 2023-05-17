@@ -265,7 +265,6 @@ figure {
     font-family: "Instrument Sans", sans-serif; }
 
 .references {
-  background: url(../Img/Reference/Reference-Original.jpg);
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../Img/Reference/Reference-Original.jpg);
   background-size: cover;
   background-position: center;
