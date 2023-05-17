@@ -49,13 +49,6 @@ body {
   color: $-Texto;
 }
 
-// DISCOVER
-.discover {
-  background: yellow;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-}
-
 // QUESTIONS
 .questions {
   background: brown;
