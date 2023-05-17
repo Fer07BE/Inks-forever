@@ -2,3 +2,92 @@
   background: $-Fondo-oscuro;
   text-align: center;
 }
+
+.artist__text {
+  width: 80%;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding-top: 0.4rem;
+  font-family: $-texto-cuerpo;
+  font-size: 1.4rem;
+}
+
+.artist__cards {
+  margin-top: 2.4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+}
+
+.artist__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+  width: 80%;
+}
+
+.artist__img {
+  height: 35%;
+}
+
+.artist-img {
+  width: 12.8rem;
+  height: 12.8rem;
+  border-radius: 50%;
+  object-fit: cover;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  outline: 5px solid rgba($-Fondo-claro, 0.5);
+  outline-offset: 6px;
+  filter: sepia(35%);
+  -webkit-filter: sepia(35%);
+}
+
+.artist__info-text {
+  margin-top: 0.8rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.artist__tittle {
+  color: rgba($-Titulos, 0.7);
+  text-transform: uppercase;
+  font-family: $-Titulos;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.artist__sub-tittle {
+  font-family: $-texto-cuerpo;
+  color: rgba($-Texto, 0.7);
+  font-size: 1.2rem;
+  padding-top: 0.2rem;
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: rgba($-Color-linea, 0.5);
+    transform: translateY(1.2rem);
+    -webkit-transform: translateY(1.2rem);
+    -moz-transform: translateY(1.2rem);
+    -ms-transform: translateY(1.2rem);
+    -o-transform: translateY(1.2rem);
+  }
+}
+
+.artist__description {
+  padding-top: 2.4rem;
+  font-family: $-texto-cuerpo;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
