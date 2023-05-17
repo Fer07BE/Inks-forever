@@ -310,6 +310,7 @@ figure {
 
 .artist {
   background: #2e3840;
+  background: red;
   text-align: center; }
 
 .artist__text {
