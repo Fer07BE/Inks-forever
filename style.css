@@ -26,11 +26,6 @@ body {
   font-family: "PT Serif", serif;
   color: #f0eeed; }
 
-.questions {
-  background: brown;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); }
-
 .contact {
   background: orangered;
   display: flex;
