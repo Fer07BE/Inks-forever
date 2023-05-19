@@ -1,11 +1,39 @@
 .questions {
-  background: rgba($-Fondo-oscuro , .8);
-  text-align: center
+  background: rgba($-Fondo-oscuro, 0.8);
+}
+
+.question__info {
+  text-align: center;
 }
 
 .questions__grid {
-  text-align: left !important;
   display: grid;
-  grid-template-columns: repeat(auto-fit , minmax(55rem , 1fr));
-  gap: 4.4rem;
+  grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
+  gap: 1.2rem;
+}
+
+.questions__grid {
+  padding-top: 4.4rem;
+}
+
+.questions__item {
+  width: 95%;
+  margin: 0 auto;
+
+  &:not(:last-of-type) {
+    padding-bottom: 2.4rem;
+  }
+}
+
+.questions__tittle {
+  font-family: $-Titulos;
+  color: rgba($-Titulos, 0.8);
+  font-size: 2rem;
+}
+
+.questions__text {
+  padding-top: 0.4rem;
+  line-height: 1.5;
+  font-family: $-texto-cuerpo;
+  font-size: 1.6rem;
 }
