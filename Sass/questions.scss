@@ -1,0 +1,11 @@
+.questions {
+  background: rgba($-Fondo-oscuro , .8);
+  text-align: center
+}
+
+.questions__grid {
+  text-align: left !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fit , minmax(55rem , 1fr));
+  gap: 4.4rem;
+}
