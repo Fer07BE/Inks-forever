@@ -26,12 +26,6 @@ body {
   font-family: "PT Serif", serif;
   color: #f0eeed; }
 
-.contact {
-  background: orangered;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-
 .localitation {
   background: gray;
   display: grid;
@@ -571,3 +565,39 @@ body {
   line-height: 1.5;
   font-family: "Instrument Sans", sans-serif;
   font-size: 1.6rem; }
+
+.contact {
+  background: url(../Img/Contact/Contact-Original.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Img/Contact/Contact-Original.jpg);
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.contact__tittle {
+  font-family: "PT Serif", serif;
+  font-size: 4.4rem;
+  letter-spacing: 4px;
+  color: rgba(238, 238, 238, 0.88);
+  padding-bottom: 1.6rem; }
+
+.contact__text {
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 2rem;
+  color: rgba(238, 238, 238, 0.88); }
+
+.contact__form {
+  padding-top: 5.2rem;
+  display: inline-block; }
+
+.contact__form-item {
+  display: inline-block;
+  width: 100%; }
+
+.input__item {
+  width: calc(90% - 100% / 2);
+  width: calc(100% - 90% / 2); }
